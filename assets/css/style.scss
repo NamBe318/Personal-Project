@@ -1,0 +1,28 @@
+$MySize: 45px;
+$MyColor: #dc3545;
+
+@media screen and (min-width: 768px) {
+  nav a p:hover {
+    color: $MyColor;
+  }
+}
+
+.carousel-item {
+  img {
+  filter: brightness(50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
+
+#btnRM {
+  width: 45px !important;
+}
+
+#NumberAbout {
+  width: $MySize;
+  height: $MySize;
+  text-align: center;
+}
+

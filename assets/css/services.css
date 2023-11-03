@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+  nav a p:hover {
+    color: #dc3545;
+  }
+}
+.headpage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button #btnEx {
+  height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  #btnEx {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #btnEx {
+    width: 800px;
+  }
+}/*# sourceMappingURL=services.css.map */

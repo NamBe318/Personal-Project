@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+  nav a p:hover {
+    color: #dc3545;
+  }
+}
+.headpage, iframe {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#NumberAbout {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeCarServ</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/booking.css">
+    <link rel="stylesheet" href="assets/icons/font/bootstrap-icons.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- top-bar start -->
+        <div class="container-fluid ms-0">
+            <div class="row bg-light text-center p-lg-3
+                topbar d-md-none d-sm-none d-lg-flex">
+                <!-- top-bar-text -->
+                <div class="d-inline-flex gap-2 col-lg-7 me-lg-1 pt-lg-2">
+                    <div class="d-inline-flex">
+                        <i class="bi-geo-alt-fill fs-6 text-danger"></i>
+                        <p class="fs-6">Cam Pha, Quang Ninh, Viet Nam</p>
+                    </div>
+                    <div class="d-inline-flex gap-2">
+                        <i class="bi-clock fs-6 text-danger"></i>
+                        <p class="fs-6">Mon - Fri:09:00 AM - 09:00 PM</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 pt-lg-2 ms-5 float-end">
+                    <div class="d-inline-flex float-end">
+                        <i class="bi-telephone-fill fs-6 text-danger"></i>
+                        <p class="fs-6">+84 1234 5678</p>
+                    </div>
+                </div>
+                <!-- top-bar-icon -->
+                <div class="d-inline-flex gap-1 col-lg-1  h-75">
+                    <a href="" class="btn btn-danger w-75 col-12">
+                        <i class="bi-facebook fs-6"></i>
+                    </a>
+                    <a href="" class="btn btn-danger w-75 col-12">
+                        <i class="bi-twitter fs-6"></i>
+                    </a>
+                    <a href="" class="btn btn-danger w-75 col-12">
+                        <i class="bi-linkedin fs-6"></i>
+                    </a>
+                    <a href="" class="btn btn-danger w-75 col-12">
+                        <i class="bi-instagram fs-6"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- top-bar-end -->
+        <!-- navbar-start -->
+        <nav class="container-fluid navbar bg-white sticky-top p-0 px-5 justify-content-sm-center justify-content-lg-between">
+            <!-- navbar-logo -->
+            <a href="index.html" class="text-danger navbar-brand d-flex
+                    align-items-center
+                    text-decoration-none">
+                <h2 class="fs-1"><i class="bi-car-front-fill mx-1"></i>
+                    BeCarServ</h2>
+            </a>
+            <!-- navbar-menu -->
+            <div class="h3 d-inline-flex gap-lg-3 gap-md-5 gap-sm-4 pt-lg-4
+                    navmenu">
+                <a href="index.html" class="nav-item nav-link
+                        text-decoration-none text-black">
+                    <p>HOME</p>
+                </a>
+                <a href="about.html" class="nav-item nav-link text-decoration-none
+                        text-black">
+                    <p>ABOUT</p>
+                </a>
+                <a href="services.html" class="nav-item nav-link text-decoration-none
+                        text-black">
+                    <p>SERVICES</p>
+                </a>
+                <a href="booking.html" class="nav-item nav-link text-decoration-none
+                        text-danger">
+                    <p>BOOKING</p>
+                </a>
+                <a href="contact.html" class="nav-item nav-link text-decoration-none
+                        text-black">
+                    <p>CONTACT</p>
+                </a>
+            </div>
+        </nav>
+        <!-- navbar-end -->
+    </header>
+    <main>
+        <!-- head-main-start -->
+        <div class="container-fluid headpage p-5" style="background-image:
+                url(assets/media/img/carousel-bg-1-darken.jpg);">
+            <h2 class="text-center text-white display-5 fw-semibold">Booking</h2>
+            <p class="text-center text-white"><span class="text-danger">Home</span>
+                / <span class="text-danger">Pages</span> / Booking</p>
+        </div>
+        <!-- head-main-end -->
+        <!-- form-start -->
+        <div class="container-fluid mt-5" style="background-image: url(assets/media/img/carousel-bg-3-darken.jpg);">
+            <div class="row p-5 mx-xl-5 g-xl-5">
+                <div class="col-xl-4 col-lg-6 text-white me-xl-5">
+                    <h1>Certified and Award Winning Car Repair Service Provider</h1>
+                    <p>Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at
+                        sea
+                        ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod
+                        et.
+                        Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata
+                        takimata sanctus sed.</p>
+                </div>
+                <div class="col-xl-7 col-lg-6 px-xl-5">
+                    <div>
+                        <h1 class="text-white">Book For A Service</h1>
+                        <form action="action.php" method="post">
+                            <div class="row g-1">
+                                <div class="col-md-6 col-sm-12 form-group">
+                                    <label for="name"></label>
+                                    <input type="text" id="name" class="form-control border-0" placeholder="Your Name">
+                                </div>
+                                <div class="col-md-6 col-sm-12 form-group">
+                                    <label for="email"></label>
+                                    <input type="email" id="email" class="form-control border-0"
+                                        placeholder="Your Email">
+                                </div>
+                                <div class="col-md-6 col-sm-12 form-group">
+                                    <label for="service"></label>
+                                    <select class="form-select border-0" id="service">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 col-sm-12 form-group">>
+                                    <label for="time"></label>
+                                    <input type="text" id="time" class="form-control border-0 datetimepicker-input"
+                                        placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker">
+                                </div>
+                                <div class="col-12 form-group">
+                                    <label for="Srequest"></label>
+                                    <textarea class="form-control border-0" id="Srequest"
+                                        placeholder="Special Request"></textarea>
+                                </div>
+                                <div class="col-12 pt-4">
+                                    <input class="btn btn-danger w-100 py-3" type="submit" value="Book Now"></input>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- form-end -->
+            <!-- call-to-action-start -->
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                    <h3>//CALL TO ACTION//</h3>
+                    <h1>Have Any Pre Booking Question?</h1>
+                    <p>Lorem diam ea sit dolor labore. Clita et dolor erat sed est lorem sed et sit. Diam sed duo magna
+                        erat et stet clita ea magna ea sed, sit labore magna lorem tempor justo rebum dolores. Eos dolor
+                        sea erat amet et, lorem labore lorem at dolores. Stet ea ut justo et, clita et et ipsum diam.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-5 bg-light text-center pt-lg-5 pb-sm-5 pt-sm-5">
+                    <h2 class="pt-md-5 pt-lg-0"><i class="bi-telephone-fill"></i>
+                        +84 1234 5678</h2>
+                    <h2 class="btn btn-danger btn-lg">CONTACT US <i class="bi-arrow-bar-right"></i></h2>
+                </div>
+                </div>
+            </div>
+            <!-- call-to-action-end -->
+    </main>
+    <footer class="pt-5 mt-5 pb-1 bg-black bg-opacity-75">
+        <!-- <img src="assets/media/img/carousel-bg-1.jpg" alt="" width="100%" height="400px" class=""> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h4 class="text-white">ADDRESS</h4>
+                    <p class="fs-6 text-white"><i class="bi-geo-alt-fill"></i>
+                        Cam Pha, Quang Ninh, Viet Nam</p>
+                    <p class="fs-6 text-white"><i class="bi-telephone-fill"></i>
+                        +84 1234 5678</p>
+                    <p class="fs-6 text-white"><i class="bi-envelope-fill"></i>
+                        info@example.com</p>
+                    <div class="row d-inline-flex" id="FooterIcon">
+                        <a href="#" class="col">
+                            <p class="bi-twitter fs- text-white"></p>
+                        </a>
+                        <a href="#" class="col">
+                            <p class="bi-facebook fs-6 text-white"></p>
+                        </a>
+                        <a href="#" class="col">
+                            <p class="bi-youtube fs-6 text-white"></p>
+                        </a>
+                        <a href="#" class="col">
+                            <p class="bi-linkedin fs-6 text-white"></p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h4 class="text-white">OPENING HOURS</h4>
+                    <p class="text-white fw-bold" id="FooterTime">Monday-Friday:</p>
+                    </p>
+                    <p class="text-white">09:00AM - 09:00PM</p>
+                    <p class="text-white fw-bold">Saturday-Sunday:</p>
+                    </p>
+                    <p class="text-white" id="FooterTime">09:00AM - 12:00PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h4 class="text-white">SERVICES</h4>
+                    <p class="text-white"><i class="bi-caret-right-fill"></i>
+                        Diagnostic</p>
+                    <p class="text-white"><i class="bi-caret-right-fill"></i>
+                        Engine Servicing</p>
+                    <p class="text-white"><i class="bi-caret-right-fill"></i>
+                        Tires Replacement</p>
+                    <p class="text-white"><i class="bi-caret-right-fill"></i>
+                        Oil Changing</p>
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-3">
+                    <h4 class="text-white">NEWSLETTER</h4>
+                    <p class="text-white">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top container-fluid text-center">
+                <p class="text-white pt-3 pb-1">Copyright © 2023 <a href="#" class="text-white">BeCarServ</a>. All
+                    Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
